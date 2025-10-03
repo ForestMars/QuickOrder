@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["jest", "@testing-library/jest-dom", "node"]
+  },
+  "include": ["src", "src/__tests__"]
+}
+
+
