@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
+import { Trash2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useOrderStore } from '../store/useOrderStore';
 
@@ -249,13 +250,17 @@ const MenuPage: React.FC = () => {
                           color: 'white', 
                           border: 'none', 
                           borderRadius: '50%', 
-                          width: 24, 
-                          height: 24, 
+                          width: 28, 
+                          height: 28, 
                           cursor: 'pointer',
-                          fontSize: '0.8rem'
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          padding: 0
                         }}
+                        aria-label="Remove from cart"
                       >
-                        -
+                        <Trash2 size={18} />
                       </button>
                       <span style={{ minWidth: 20, textAlign: 'center' }}>{item.quantity}</span>
                       <button 
