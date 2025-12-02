@@ -1,6 +1,7 @@
 # QuickOrder ☕
 
 Let's be quick about it, coffee served up fast! 
+For your coffee break. 
 
 A modern, cashierless coffee shop ordering system built with React, TypeScript, and Vite. QuickOrder allows customers to browse the menu, place orders, and track their order history with a beautiful, responsive interface.
 
